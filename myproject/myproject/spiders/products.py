@@ -4,10 +4,11 @@ from ..items import MyprojectItem
 class ProductsSpider(scrapy.Spider):
     name = 'products'
     allowed_domains = ['kikomilano.com.tr/']
-    page_number = 2
+    #page_number = 2
     start_urls = ['https://www.kikomilano.com.tr/makyaj/?page=1',
                   'https://www.kikomilano.com.tr/makyaj/?page=2']
     
+    #response.css('div.list-Result span::text').get()
     
     for i in range(3,80):
         start_urls.append(f'https://www.kikomilano.com.tr/makyaj/?page={i}')
