@@ -7,7 +7,6 @@ To run this project, you will need to have the following software requirements:
 • scrapy
 • sqlite3
 • pandas
-• scrapy
 • itemadapter
 
 # Setup
