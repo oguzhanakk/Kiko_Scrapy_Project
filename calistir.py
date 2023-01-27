@@ -50,4 +50,4 @@ plt.fill_between(
     y_pred.index, y_pred["0.1"], y_pred["0.9"], color="red", alpha=0.1, label=f"10%-90% confidence interval"
 )
 plt.legend()
-plt.show()
+plt.show() 
